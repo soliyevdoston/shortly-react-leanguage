@@ -10,13 +10,11 @@ export default function Footer() {
   return (
     <footer className="bg-[#232127] text-white  py-[71px] px-[163px] w-[1440px]">
       <div className="mx-auto grid md:grid-cols-3 gap-8">
-        {/* LOGO */}
         <div className="flex items-center gap-2 ">
           <h1 className="text-2xl font-bold">{t("header.logo")}</h1>
         </div>
 
-        {/* FEATURES */}
-        <div className="max-w-8xl mx-auto grid md:grid-cols-3 gap-10">
+        <div className="max-w-xl mx-auto grid md:grid-cols-3 gap-10">
           <div>
             <h3 className="font-bold text-lg mb-4">
               {t("footer.features.title")}
@@ -47,7 +45,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* COMPANY */}
+
           <div>
             <h3 className="font-bold text-lg mb-4">
               {t("footer.company.title")}

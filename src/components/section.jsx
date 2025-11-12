@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import BgImage from "../assets/Path 2.svg"; // Rasm manzilingni moslashtir
+import BgImage from "../assets/Path 2.svg";
 
 export default function BoostSection() {
   const { t } = useTranslation();
@@ -12,7 +12,7 @@ export default function BoostSection() {
     >
       <h2 className="text-4xl font-bold mb-6">{t("boost.title")}</h2>
 
-      <button className="bg-[#2acfcf] hover:bg-[#9be3e2] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300">
+      <button className="bg-[#2acfcf] hover:bg-[#9be3e2] text-white font-semibold py-3 px-8 rounded-[25px] ">
         {t("boost.button")}
       </button>
     </section>

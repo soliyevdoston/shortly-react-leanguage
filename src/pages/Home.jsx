@@ -8,31 +8,22 @@ export default function Home() {
 
   return (
     <main className="max-w-[1440px] mx-auto">
-      {/* HERO SECTION */}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between py-20 px-10">
-        {/* Chap tomonda matn */}
-        <div className=" pl-[165px]  md:text-left pb-[5px]">
+      <section className="flex flex-col-reverse flex-row items-center justify-between py-20 px-10">
+        <div className=" pl-[165px]  text-left pb-[5px]">
           <h1 className="text-[80px] tracking-[-2px] leading-[90px] font-bold  ">
             {t("heroTitle")}
           </h1>
           <p className="text-gray-500 mb-[38px]">{t("heroText")}</p>
-          <button className="bg-[#2acfcf] hover:bg-[#9be3e2] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300">
+          <button className="bg-[#2acfcf] hover:bg-[#9be3e2] text-white font-semibold py-3 px-8 rounded-[25px] ">
             {t("boost.button")}
           </button>
         </div>
 
-        {/* O‘ng tomonda rasm */}
         <div className="  flex justify-end">
-          <img
-            src={Work}
-            alt="Working on computer"
-            width="650px"
-            height="482px"
-          />
+          <img src={Work} alt="Working" width="650px" height="482px" />
         </div>
       </section>
 
-      {/* ADVANCED STATISTICS */}
       <AdvancedStatistics />
     </main>
   );
