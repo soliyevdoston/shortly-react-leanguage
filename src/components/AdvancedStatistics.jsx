@@ -6,8 +6,14 @@ export default function AdvancedStatistics() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(`https://json-api.uz/api/project/shortly/${i18n.language}`)
-      .then((res) => res.json())
+    fetch(`/api/project/shortly/${i18n.language}`)
+      .then(async (res) => {
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(`Server xatosi: ${res.status} - ${text}`);
+        }
+        return res.json();
+      })
       .then((res) => setData(res.data))
       .catch((err) => console.error("API error:", err));
   }, [i18n.language]);
