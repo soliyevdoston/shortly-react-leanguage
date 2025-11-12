@@ -1,0 +1,41 @@
+{
+  "boost": {
+    "title": "Boost your links today",
+    "button": "Get Started"
+  },
+  "advanced": {
+    "title": "Advanced Statistics",
+    "subtitle": "Track how your links are performing across the web with our advanced statistics dashboard."
+  },
+  "header": {
+    "logo": "Shortly",
+    "features": "Features",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "login": "Login",
+    "signUp": "Sign Up"
+  },
+  "heroTitle": "More than just shorter links",
+  "heroText": "Build your brand's recognition and get detailed insights on how your links are performing.",
+  "footer": {
+    "features": {
+      "title": "Features",
+      "linkShortening": "Link Shortening",
+      "brandedLinks": "Branded Links",
+      "analytics": "Analytics"
+    },
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog",
+      "developers": "Developers",
+      "support": "Support"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "ourTeam": "Our Team",
+      "careers": "Careers",
+      "contact": "Contact"
+    }
+  }
+}

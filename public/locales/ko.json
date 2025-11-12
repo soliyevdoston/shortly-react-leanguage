@@ -1,0 +1,41 @@
+{
+  "boost": {
+    "title": "오늘 바로 링크를 강화하세요",
+    "button": "시작하기"
+  },
+  "advanced": {
+    "title": "고급 통계",
+    "subtitle": "고급 통계 대시보드를 통해 링크의 성능을 추적하세요."
+  },
+  "header": {
+    "logo": "쇼틀리",
+    "features": "기능",
+    "pricing": "가격",
+    "resources": "자료",
+    "login": "로그인",
+    "signUp": "가입하기"
+  },
+  "heroTitle": "단축 링크 이상의 가치",
+  "heroText": "브랜드 인지도를 높이고 링크 성과를 분석하세요.",
+  "footer": {
+    "features": {
+      "title": "기능",
+      "linkShortening": "링크 단축",
+      "brandedLinks": "브랜드 링크",
+      "analytics": "분석"
+    },
+    "resources": {
+      "title": "자료",
+      "blog": "블로그",
+      "developers": "개발자",
+      "support": "지원"
+    },
+    "company": {
+      "title": "회사",
+      "about": "회사 소개",
+      "ourTeam": "팀 소개",
+      "careers": "채용",
+      "contact": "연락처"
+    }
+  }
+}

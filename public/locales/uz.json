@@ -1,0 +1,41 @@
+{
+  "boost": {
+    "title": "Havolalaringizni bugunoq kuchaytiring",
+    "button": "Boshlash"
+  },
+  "advanced": {
+    "title": "Kengaytirilgan statistika",
+    "subtitle": "Havolalaringizning internetdagi faoliyatini bizning ilg‘or statistika paneli orqali kuzating."
+  },
+  "header": {
+    "logo": "ShorTli",
+    "features": "Xususiyatlar",
+    "pricing": "Narxlar",
+    "resources": "Resurslar",
+    "login": "Kirish",
+    "signUp": "Ro‘yxatdan o‘tish"
+  },
+  "heroTitle": "Faqat qisqa linklardan ko‘proq",
+  "heroText": "Brendingizni tanitish va linklaringiz samaradorligini tahlil qiling.",
+  "footer": {
+    "features": {
+      "title": "Xususiyatlar",
+      "linkShortening": "Linklarni qisqartirish",
+      "brandedLinks": "Brend linklar",
+      "analytics": "Tahlillar"
+    },
+    "resources": {
+      "title": "Resurslar",
+      "blog": "Blog",
+      "developers": "Dasturchilar",
+      "support": "Yordam"
+    },
+    "company": {
+      "title": "Kompaniya",
+      "about": "Biz haqimizda",
+      "ourTeam": "Jamoamiz",
+      "careers": "Karyera",
+      "contact": "Bog‘lanish"
+    }
+  }
+}
